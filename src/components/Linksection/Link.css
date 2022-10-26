@@ -10,13 +10,13 @@
     
 }
 
-.twitter,
-.btn_zuri,
-.books,
-.book_python,
-.books,
-.pitch,
-.book_design {
+#twitter,
+#btn_zuri,
+#books,
+#book_python,
+#books,
+#pitch,
+#book_design {
     width: 90%;
     height: 46px;
     margin-bottom: 1rem;

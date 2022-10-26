@@ -1,5 +1,7 @@
 import React from 'react'
-import {RiShareForwardLine} from 'react-icons/ri'
+// react icons
+import { RiShareForwardLine } from 'react-icons/ri'
+import {TbDotsCircleHorizontal} from 'react-icons/tb'
 import './Share.css'
 
 const Share = () => {
@@ -10,6 +12,7 @@ const Share = () => {
           <RiShareForwardLine />
           <span className="tooltiptext">Share Link</span>
         </div>
+        <TbDotsCircleHorizontal className='icon_mobile'/>
       </div>
     </div>
   );

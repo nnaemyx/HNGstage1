@@ -1,8 +1,9 @@
 import React from 'react'
-// react icons
-import { RiShareForwardLine } from 'react-icons/ri'
-import {TbDotsCircleHorizontal} from 'react-icons/tb'
 import './Share.css'
+// react icon
+import { RiShareForwardLine } from 'react-icons/ri'
+// import images
+import Iconmobile from '../../images/_Avatar share button.png'
 
 const Share = () => {
   return (
@@ -12,7 +13,10 @@ const Share = () => {
           <RiShareForwardLine />
           <span className="tooltiptext">Share Link</span>
         </div>
-        <TbDotsCircleHorizontal className='icon_mobile'/>
+        <div className="icon_mobile">
+          <img src={Iconmobile} alt="ima" />
+          <span className="tooltiptext">Share Link</span>
+        </div>
       </div>
     </div>
   );

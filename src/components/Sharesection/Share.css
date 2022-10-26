@@ -47,8 +47,50 @@
     display: none;
 }
 
+
+
 @media screen and (max-width: 768px) {
     .share_icon {
         display: none;
+    }
+    .icon_mobile {
+        display: inline-flex;
+        width: 2rem;
+        position: relative;
+    }
+    
+        .icon_mobile .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            font-size: 14px;
+            border-radius: 6px;
+            padding: 10px 0;
+            position: absolute;
+            z-index: 1;
+            top: -5px;
+            right: 110%;
+        }
+    
+        .icon_mobile .tooltiptext::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent transparent black;
+        }
+    
+        .icon_mobile:hover .tooltiptext {
+            visibility: visible;
+        }
+    .share_section {
+        margin-top: 30px;
+        margin-left: 15rem;
+        margin-bottom: 20px;
     }
 }

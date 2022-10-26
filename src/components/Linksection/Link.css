@@ -28,3 +28,21 @@
 button:hover {
     background-color: #D0D5DD;
 }
+
+.slackgit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+.slackgit img {
+    width: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .slackgit {
+        display: none;
+    }
+}

@@ -8,10 +8,14 @@
 
 .icon {
   position: absolute;
-  top: 39px;
-  left: 608px;
+  top: 0;
+  left: 46.5%;
   display: none;
   width: 2rem;
+  padding: 28px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.5);
+  color: white;
 }
 
 
@@ -29,10 +33,16 @@
 #slack {
   display: none;
 }
+.blur{
+  width: 88px;
+  height: 88px;
+  
+}
 
-@media screen and (max-width: 375px) {
+
+@media screen and (max-width: 480px) {
   .icon {
-    top: 39px;
-    left: 148px;
+    top: 2px;
+    left: 118px;
   }
 }

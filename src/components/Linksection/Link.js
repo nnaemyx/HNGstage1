@@ -1,5 +1,8 @@
 import './Link.css'
 
+// import images
+import Slackimg from '../../images/slack (1).png'
+import Githubimg from '../../images/Icon (3).png'
 
 const Link = () => {
   return (
@@ -25,6 +28,15 @@ const Link = () => {
         >
           <button className="book_design">Design Books</button>
         </a>
+      </div>
+      <div className='slackgit'>
+        <div>
+          <a href='gg'><img src={Slackimg} alt="" /></a>
+        </div>
+
+        <div>
+          <img src={Githubimg} alt="" />
+        </div>
       </div>
     </div>
   );

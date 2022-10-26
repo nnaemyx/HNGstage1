@@ -15,7 +15,11 @@ const Link = () => {
         <a href="http://books.zuri.team" target="_blank" rel="noreferrer">
           <button className="books">Zuri Books</button>
         </a>
-        <a href="https://books.zuri.team/" target="_blank" rel="noreferrer">
+        <a
+          href="https://books.zuri.team/python-for-beginners?ref_id=edehjohnpaul"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button className="book_python">Python Books</button>
         </a>
         <a href="https://background.zuri.team" target="_blank" rel="noreferrer">
@@ -29,9 +33,11 @@ const Link = () => {
           <button className="book_design">Design Books</button>
         </a>
       </div>
-      <div className='slackgit'>
+      <div className="slackgit">
         <div>
-          <a href='gg'><img src={Slackimg} alt="" /></a>
+          <a href="gg">
+            <img src={Slackimg} alt="" />
+          </a>
         </div>
 
         <div>

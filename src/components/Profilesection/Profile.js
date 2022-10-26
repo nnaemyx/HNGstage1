@@ -13,7 +13,7 @@ const Profile = () => {
           <AiOutlineCamera size={30} className="icon" />
         </div>
         <h1>Edeh Johnpaul</h1>
-        <h2 id="slack">Slack</h2>
+        <h2 id="slack">edehjohnpaul</h2>
       </div>
     </div>
   );

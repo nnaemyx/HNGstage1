@@ -5,11 +5,14 @@ import './Share.css'
 const Share = () => {
   return (
     <div>
-        <div className='share_section'>
-            <RiShareForwardLine className='share_icon'/>  
-        </div>      
+      <div className="share_section">
+        <div className="share_icon">
+          <RiShareForwardLine />
+          <span className="tooltiptext">Share Link</span>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Share

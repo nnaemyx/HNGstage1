@@ -1,0 +1,30 @@
+.link_section {
+    height: 40rem;
+    
+}
+
+.links {
+    width: 100%;
+    display: inline-block;
+    margin-top: 2rem;
+    
+}
+
+.twitter,
+.btn_zuri,
+.books,
+.book_python,
+.books,
+.pitch,
+.book_design {
+    width: 90%;
+    height: 46px;
+    margin-bottom: 1rem;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #D0D5DD;
+}

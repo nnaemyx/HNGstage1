@@ -1,9 +1,38 @@
 #profile_img {
-    width: 5%;
+  position: relative;
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.icon {
+  position: absolute;
+  top: 39px;
+  left: 608px;
+  display: none;
+  width: 2rem;
+}
+
+
+#profile_img:hover .icon {
+  display: block;
+  cursor: pointer;
+  opacity: 1;
 }
 
 .profile h1 {
-    font-size: 20px;
-    font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
 }
 
+#slack {
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+  .icon {
+    top: 39px;
+    left: 148px;
+  }
+}
